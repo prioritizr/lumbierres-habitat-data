@@ -4,7 +4,7 @@
 # Habitat classification data from Lumbierres *et al.* 2021
 
 [![lifecycle](https://img.shields.io/badge/Lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html)
-[![DOI](https://img.shields.io/badge/DOI-TODO-blue.svg)](https://doi.org/TODO)
+[![DOI](https://img.shields.io/badge/DOI-10.5281/zenodo.6622059-blue.svg)](https://doi.org/10.5281/zenodo.6622059)
 
 This repository contains code to generate global habitat classification
 data (based on Lumbierres *et al.* 2021). Specifically, source data are
@@ -13,9 +13,9 @@ Archive](https://doi.org/10.5281/zenodo.5146072), and then projected to
 the World Behrmann coordinate reference system using (100 m resolution;
 [ESRI:4326 coordinate reference system](https://epsg.io/54017)). A
 processed version of the data can be downloaded from the [Zenodo Digital
-Repository](https://zenodo.org/badge/latestdoi/TODO). **All credit
-should go to Lumbierres *et al.* (2021), please cite their work if you
-use this dataset.**
+Repository](https://doi.org/10.5281/zenodo.6622059). **All credit should
+go to Lumbierres *et al.* (2021), please cite their work if you use this
+dataset.**
 
 <img src="figures/README-map-1.png" style="display: block; margin: auto;" />
 
