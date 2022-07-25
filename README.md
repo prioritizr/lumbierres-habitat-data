@@ -8,11 +8,10 @@
 
 This repository contains code to generate global habitat classification
 data (based on Lumbierres *et al.* 2021). Specifically, source data are
+downloaded and then projected to the World Behrmann coordinate reference
+system using (100 m resolution; [ESRI:4326 coordinate reference
+system](https://epsg.io/54017)). A processed version of the data can be
 downloaded from the [Zenodo Digital
-Archive](https://doi.org/10.5281/zenodo.5146072), and then projected to
-the World Behrmann coordinate reference system using (100 m resolution;
-[ESRI:4326 coordinate reference system](https://epsg.io/54017)). A
-processed version of the data can be downloaded from the [Zenodo Digital
 Repository](https://doi.org/10.5281/zenodo.6622059). **All credit should
 go to Lumbierres *et al.* (2021), please cite their work if you use this
 dataset.**
@@ -24,13 +23,13 @@ dataset.**
 The habitat classification data are stored in a raster (GeoTIFF) file.
 The file name contains the version number of the original datasets
 (i.e., per the digital object identifier). The latest version of the
-file is `lumbierres-10-5281_zenodo-5146073.tif`.
+file is `lumbierres-10-5281_zenodo-5146073-v2.tif`.
 
-The metadata for the `lumbierres-10-5281_zenodo-5146073.tif` raster file
-is shown below.
+The metadata for the `lumbierres-10-5281_zenodo-5146073-v2.tif` raster
+file is shown below.
 
     Driver: GTiff/GeoTIFF
-    Files: lumbierres-10-5281_zenodo-5146073.tif
+    Files: lumbierres-10-5281_zenodo-5146073-v2.tif
     Size is 347351, 132926
     Coordinate System is:
     PROJCRS["World_Behrmann",
@@ -70,7 +69,6 @@ is shown below.
     Pixel Size = (100.000000000000000,-100.000000000000000)
     Metadata:
       AREA_OR_POINT=Area
-      TIFFTAG_SOFTWARE=GRASS GIS 7.8.5 with GDAL 3.0.4
     Image Structure Metadata:
       COMPRESSION=DEFLATE
       INTERLEAVE=BAND
@@ -83,9 +81,6 @@ is shown below.
     Band 1 Block=256x256 Type=Byte, ColorInterp=Gray
       Description = habitat_CGLS
       NoData Value=0
-      Metadata:
-        COLOR_TABLE_RULES_COUNT=1
-        COLOR_TABLE_RULE_RGB_0=0.000000e+00 1.200000e+02 255 255 255 150 123 0
 
 ## Usage
 
@@ -119,10 +114,6 @@ System packages
 
 This dataset was derived from Lumbierres *et al.* (2021). If you use
 this dataset, you should cite their work - they deserve all the credit!
-
-> Lumbierres, M (2021). *Map of habitat classes (Level 1) from the IUCN
-> Habitat.* Zenodo Digital Repository. Available at
-> <https://doi.org/10.5281/zenodo.5146072>.
 
 > Lumbierres M, Dahal PR, Di Marco M, Butchart SHM, Donald PF, and
 > Rondinini C (2021) Translating habitat class to land cover to map area

@@ -15,7 +15,7 @@ output:
 knitr::opts_chunk$set(fig.path = "figures/README-", fig.align = "center")
 ```
 
-This repository contains code to generate global habitat classification data (based on Lumbierres *et al.* 2021). Specifically, source data are downloaded from the [Zenodo Digital Archive](https://doi.org/10.5281/zenodo.5146072), and then projected to the World Behrmann coordinate reference system using (100 m resolution; [ESRI:4326 coordinate reference system](https://epsg.io/54017)). A processed version of the data can be downloaded from the [Zenodo Digital Repository](https://doi.org/10.5281/zenodo.6622059). **All credit should go to Lumbierres *et al.* (2021), please cite their work if you use this dataset.**
+This repository contains code to generate global habitat classification data (based on Lumbierres *et al.* 2021). Specifically, source data are downloaded and then projected to the World Behrmann coordinate reference system using (100 m resolution; [ESRI:4326 coordinate reference system](https://epsg.io/54017)). A processed version of the data can be downloaded from the [Zenodo Digital Repository](https://doi.org/10.5281/zenodo.6622059). **All credit should go to Lumbierres *et al.* (2021), please cite their work if you use this dataset.**
 
 ```{r "preliminary_processing", echo = FALSE, message = FALSE, warning = FALSE}
 # load packages
@@ -116,7 +116,5 @@ System packages
 ## Citation
 
 This dataset was derived from Lumbierres *et al.* (2021). If you use this dataset, you should cite their work - they deserve all the credit!
-
-> Lumbierres, M (2021). *Map of habitat classes (Level 1) from the IUCN Habitat.* Zenodo Digital Repository. Available at https://doi.org/10.5281/zenodo.5146072.
 
 > Lumbierres M, Dahal PR, Di Marco M, Butchart SHM, Donald PF, and Rondinini C (2021) Translating habitat class to land cover to map area of habitat of terrestrial vertebrates. *Conservation Biology*, **In press**, DOI:10.1111/cobi.13851. Available at https://doi.org/10.1111/cobi.13851.

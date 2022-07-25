@@ -117,7 +117,7 @@
       "RemoteRef": "master",
       "RemoteSha": "3d858bc3c663fc93282dd6af8eda5c5a5c7788d0",
       "Remotes": "dickoa/prepr",
-      "Hash": "53b3b8c051c4060fdefae721d31cc3d8",
+      "Hash": "b675adaba2e8eb1da04f314ae7dbb2e1",
       "Requirements": [
         "R.utils",
         "assertthat",
@@ -257,6 +257,14 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "96c01552bfd5661b9bbdefbc762f4bcd",
+      "Requirements": []
+    },
+    "codetools": {
+      "Package": "codetools",
+      "Version": "0.2-18",
+      "Source": "Repository",
+      "Repository": "CRAN",
+      "Hash": "019388fc48e48b3da0d3a76ff94608a8",
       "Requirements": []
     },
     "colorspace": {
