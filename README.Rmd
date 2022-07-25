@@ -67,7 +67,7 @@ p <-
   )
 ```
 
-```{r "map", echo = FALSE, message = FALSE, warning = FALSE, fig.height = 2.4, fig.width = 5.0, dpi = 250}
+```{r "map", echo = FALSE, message = FALSE, warning = FALSE, fig.height = 2.3, fig.width = 5.0, dpi = 300}
 # render plot
 print(p)
 ```
